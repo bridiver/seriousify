@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'rails'
+  s.name        = 'seriousify'
   s.version     = '11'
   s.summary     = 'Serious business for your synergistic customer-centric applications'
   s.description = 'Scale interactive e-tailers, aggregate enterprise technologies, integrate efficient infrastructures, orchestrate intuitive technologies'
