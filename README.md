@@ -18,6 +18,7 @@ class Business
   include Seriousify
 
   def revenue
+    puts "Calculating business revenue..."
     sleep 1000
     Random.rand(1000)
   end
