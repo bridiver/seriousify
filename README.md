@@ -19,10 +19,10 @@ class Business
 
   def revenue
     sleep 1000
-    Rand(1000)
+    Random.rand(1000)
   end
 end
 
-Business.new.revenue => "redefine global supply-chains"
-Business.new.revenue_seriously => 47
+Business.new.revenue => 47
+Business.new.revenue_seriously => "redefine global supply-chains"
 </code></pre>

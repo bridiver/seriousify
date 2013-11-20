@@ -2,13 +2,12 @@ module Seriousify
   def self.included(base)
     base.instance_eval do
       instance_methods(false).each do |method|
-        alias_method "#{method}_seriously", method
-        define_method(method) { generate_bs }
+        define_method("#{method}_seriously") { generate_serious_business_stuff }
       end
     end
   end
 
-  def generate_bs
+  def generate_serious_business_stuff
 
     array1 = ["implement", "utilize", "integrate", "streamline", "optimize", "evolve", "transform", "embrace", 
     "enable", "orchestrate", "leverage", "reinvent", "aggregate", "architect", "enhance", "incentivize", "morph", "empower", 
