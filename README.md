@@ -13,6 +13,7 @@ Serious business for your synergistic customer-centric applications
 
 usage:
 
+<pre><code>
 class Business
   include Seriousify
 
@@ -24,3 +25,4 @@ end
 
 Business.new.revenue => "redefine global supply-chains"
 Business.new.revenue_seriously => 47
+</code></pre>
